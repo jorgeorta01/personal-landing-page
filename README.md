@@ -8,6 +8,6 @@ Current Resumes
 Current Project
 Experience
 
-## Misc:
+## Miscellaneous:
 Hobbies
 Travelling
