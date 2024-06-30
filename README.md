@@ -1,13 +1,13 @@
 # personal-landing-page
 This is my attempt at deploying a website on my own.
 This site includes the following pages:
-Landing:
+## Landing Page
 Name
 Description
-Project
+Current Resumes
+Current Project
 Experience
-Projects
 
-Misc:
+## Misc:
 Hobbies
 Travelling
