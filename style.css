@@ -301,6 +301,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  margin-right: 25px; 
 }
 
 .section-container {
@@ -393,23 +394,17 @@ article .icon {
 .project-details-container {
   overflow-x: auto; /* Enable horizontal scroll */
   overflow-y: hidden; /* Disable vertical scroll */
-  white-space: nowrap; /* Ensure no line breaks */
-  display: flex;
+  display: auto;
   justify-content: center;
   flex-direction: column;
 }
 
 .project-containers {
   /* Align items horizontally */
+  margin-top: 40px;
   display: flex; 
-   /* Prevent wrapping */
-  flex-wrap: nowrap;
-
 }
 
-.details-container {
-  margin-right: 20px; 
-}
 
 /* Optional: Smooth Scrolling */
 .experience-details-container {
