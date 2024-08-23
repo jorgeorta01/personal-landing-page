@@ -373,9 +373,9 @@ article .icon {
 
 .project-video {
   border-radius: 2rem;
-  width: 90%; /* Adjust as needed */
+  width: auto; /* Adjust as needed */
   height: auto; /* Maintain aspect ratio */
-  max-height: 400px; /* Optional: limit height */
+  max-height: 200px; /* Optional: limit height */
 }
 
 
@@ -388,6 +388,34 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+/* Flexbox for Horizontal Layout */
+.project-details-container {
+  overflow-x: auto; /* Enable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll */
+  white-space: nowrap; /* Ensure no line breaks */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-containers {
+  /* Align items horizontally */
+  display: flex; 
+   /* Prevent wrapping */
+  flex-wrap: nowrap;
+
+}
+
+.details-container {
+  margin-right: 20px; 
+}
+
+/* Optional: Smooth Scrolling */
+.experience-details-container {
+  scroll-behavior: smooth;
+}
+
 
 /* CONTACT */
 
@@ -428,6 +456,7 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
 
 /* FOOTER SECTION */
 
